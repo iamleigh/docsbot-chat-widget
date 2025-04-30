@@ -35,7 +35,8 @@ coverage
 bower_components
 
 # Ignore CSS build output
-src/assets/css/
+src/assets/css/*.css
+!src/assets/css/*.min.css
 
 # node-waf configuration
 .lock-wscript
